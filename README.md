@@ -34,4 +34,4 @@
 
 
 
-<img width="1017" height="413" alt="Capture de mot de passe fuité" src="https://github.com/user-attachments/assets/885e5eb1-b497-457b-a28f-518f7f519c88" />
+
