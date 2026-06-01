@@ -1,5 +1,4 @@
 import hashlib
-from time import time
 import requests # pyright: ignore[reportMissingModuleSource]
 
 from exceptions import (
