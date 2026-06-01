@@ -12,7 +12,7 @@
 
     5- Ajoutez une capture d'écran de votre terminal montrant le script en action (une fois avec un mot de passe sûr, une fois avec un mot de passe fuité comme 123456).
 
-
+4. Ajout des class pour rendre le code plus modulable
 
 
 

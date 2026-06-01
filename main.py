@@ -1,8 +1,10 @@
-from hibp import get_pwned_count
+from hibp import HIBPClient
 
 def main():
     password = input("Entrer un mot de passe: ")
-    count = get_pwned_count(password)
+    
+    client = HIBPClient()
+    count = client.check_password(password)
 
     if count:
         print(f"Ce mot de passe {count} a été trouvé dans des fuites de données. Vous devriez envisager de le modifier.")
