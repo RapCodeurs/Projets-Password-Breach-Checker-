@@ -2,6 +2,7 @@ import hashlib
 import requests # pyright: ignore[reportMissingModuleSource]
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 def sha1_hash(password: str) -> str:
@@ -28,6 +29,8 @@ def get_pwned_count(password: str) -> int:
             return int(count)
     return 0
 =======
+=======
+>>>>>>> 5535edcfcaf42465cfd94d5e039d316e59bc8a2e
 from exceptions import (
     APIConnectionError,
     APIResponseError,
@@ -71,6 +74,9 @@ class HIBPClient:
 
 
 
+<<<<<<< HEAD
+>>>>>>> 5535edcfcaf42465cfd94d5e039d316e59bc8a2e
+=======
 >>>>>>> 5535edcfcaf42465cfd94d5e039d316e59bc8a2e
 
 

@@ -1,10 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from hibp import get_pwned_count
 
 def main():
     password = input("Entrer un mot de passe: ")
     count = get_pwned_count(password)
 =======
+=======
+>>>>>>> 5535edcfcaf42465cfd94d5e039d316e59bc8a2e
 from hibp import HIBPClient
 
 def main():
@@ -12,6 +15,9 @@ def main():
     
     client = HIBPClient()
     count = client.check_password(password)
+<<<<<<< HEAD
+>>>>>>> 5535edcfcaf42465cfd94d5e039d316e59bc8a2e
+=======
 >>>>>>> 5535edcfcaf42465cfd94d5e039d316e59bc8a2e
 
     if count:
